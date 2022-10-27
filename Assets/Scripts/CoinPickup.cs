@@ -17,7 +17,7 @@ public class CoinPickup : MonoBehaviour
     private void Start()
     {
         coinsCollected = 0;
-        coins = GameObject.FindGameObjectsWithTag("Coin");
+        coins = GameObject.FindGameObjectsWithTag("Coin"); 
         FindCoin();
     }
 
@@ -25,9 +25,10 @@ public class CoinPickup : MonoBehaviour
     {
         foreach (var coin in coins)
         {
-            if (coins != null)
+            if (coin  != null)
             {
                 target = coin;
+                return;
             }
         }
     }
@@ -42,19 +43,23 @@ public class CoinPickup : MonoBehaviour
 
     private void Update()
     {
-        if (target != null)
-        {
-            agent.destination = target.transform.position;
-        }
-
+        
         if (target == null)
         {
             FindCoin();
         }
+
+        
+        
+        
         if (coinsCollected == 3)
         {
+            target = end;
             DestroyWall();
         }
+        
+        if (target != null) 
+            agent.destination = target.transform.position;
     }
 
     private void DestroyWall()
