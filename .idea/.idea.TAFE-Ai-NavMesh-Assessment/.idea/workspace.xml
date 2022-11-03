@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8b672f0-2ec2-483c-bbfa-583137175a73" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TAFE-Ai-NavMesh-Assessment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TAFE-Ai-NavMesh-Assessment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NinjaScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NinjaScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatformerScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatformerScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Cube.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Cube.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Environment 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Environment 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Ground.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Ground.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/NinjaScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TAFE-NavMesh-Ai/Assets/Scripts/AreaMovementModifier.cs" root0="SKIP_HIGHLIGHTING" />
@@ -89,6 +87,7 @@
       <workItem from="1666841178145" duration="2793000" />
       <workItem from="1666844081345" duration="1770000" />
       <workItem from="1666851003169" duration="447000" />
+      <workItem from="1667345609566" duration="678000" />
     </task>
     <servers />
   </component>
